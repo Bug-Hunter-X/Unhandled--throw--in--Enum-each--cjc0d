@@ -1,0 +1,3 @@
+# Elixir `throw` in `Enum.each`
+
+This example demonstrates a common issue in Elixir when using `throw` within `Enum.each`.  The `throw` statement interrupts the execution of `Enum.each` completely, preventing any code following it from running.  While `throw` has its uses, in this scenario it's more idiomatic to employ different techniques such as `Enum.find` to handle such conditions more cleanly and predictably.
